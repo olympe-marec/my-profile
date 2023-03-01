@@ -1,0 +1,89 @@
+
+body {
+	background-color: rgb(245, 234, 234);
+	color: rgb(30, 30, 30);
+	font-family: 'Lora', serif;
+	font-size: 15px;
+	font-weight: lighter;
+}
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	color: rgb(46, 56, 64);
+	font-size: 30px;
+	font-weight: 900;
+}
+h2 {
+	color: rgb(192, 74, 130);
+	font-size: 23px;
+	font-weight: lighter;
+	font-weight: 300;
+}
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: rgb(58, 152, 185);
+	font-weight: 600;
+	font-size: 13px;
+
+}
+a:hover {
+	color: rgb(47, 88, 205);
+}
+
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+.box-white {
+	background-color: white;
+	padding: 50px;
+	margin: 40px;
+	text-align: center;
+	border-radius: 10px;
+	transition: color 0,3s ease;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: rgb(192, 74, 130);
+	padding: 10px 18px;
+	border-radius: 8px;
+	color: rgb(245, 234, 234);
+}
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb(247,200,224);
+}
+.list-inline i:hover {
+	background-color: black
+	color: white;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
